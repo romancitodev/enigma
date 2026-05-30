@@ -1,5 +1,8 @@
 # Enigma
 
+# Ver este documento en español
+[README.md](README.md)
+
 Enigma was a machine used during World War II to encrypt messages.
 It was a marvel of engineering at the time, but in this project, we're going to show just how simple it actually was.
 
@@ -177,3 +180,7 @@ pub fn encrypt(&mut self, message: &str) -> String {
 ```
 
 Letter by letter: first we step the rotors, then the signal goes through the plugboard, crosses the three rotors going forward, bounces off the reflector, comes back through the three rotors, goes through the plugboard again, and there we have our encrypted letter. Exactly how the physical machine worked, but in a couple of lines of Rust.
+
+
+# Link
+https://en.wikipedia.org/wiki/Enigma_machine
